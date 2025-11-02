@@ -70,3 +70,28 @@ button {
   color: #444;
 }
 
+#reset-btn {
+  background-color: #f44336; /* red */
+  color: white;
+  width: 100%;
+  padding: 14px;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 1px;
+}
+
+#reset-btn:hover {
+  background-color: #d32f2f; 
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(244, 67, 54, 0.3);
+}
+
+#reset-btn:active {
+  transform: scale(0.96);
+}
+
